@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple Clock Project </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="clock-container">
+
+        <div class="clock">
+            <div class="hand hour-hand" id="hourHand"></div>
+            <div class="hand minute-hand" id="minuteHand"></div>
+            <div class="hand second-hand" id="secondHand"></div>
+        </div>
+
+        <div class="controls">
+            <button onclick="startStopwatch()"> Start / Stop </button>
+            <button onclick="resetStopwatch()"> Restart </button>
+        </div>
+
+        <div class="stopwatch" id="stopwatch">
+            00:00:00
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
